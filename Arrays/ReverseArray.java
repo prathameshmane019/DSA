@@ -60,7 +60,7 @@ class Result {
 
 }
 
-public class Solution {
+public class ReverseArray {
     public static void main(String[] args) throws IOException {
 
         List<Integer> a = new ArrayList<>();
