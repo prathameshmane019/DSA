@@ -36,7 +36,7 @@
     // Definition for singly-linked list.
 
     class MergeTwoSortedList {
-        public MergeTwoLists mergeTwoLists(MergeTwoLists list1, MergeTwoLists list2) {
+        public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
     
             if(list1!=null && list2!=null){
             if(list1.val<list2.val){
@@ -53,11 +53,11 @@
             return list1;
         }
     }
-    public class MergeTwoLists {
+    public class ListNode {
         int val;
-        MergeTwoLists next;
-        MergeTwoLists() {}
-        MergeTwoLists(int val) { this.val = val; }
-        MergeTwoLists(int val, MergeTwoLists next) { this.val = val; this.next = next; }
+        ListNode next;
+        ListNode() {}
+        ListNode(int val) { this.val = val; }
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
        } 
    
