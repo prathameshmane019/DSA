@@ -93,7 +93,6 @@ class Solution2 {
                 currentEnd=farthest;
             }
         }
-
         return jump;
     }
 }
@@ -102,9 +101,12 @@ class Solution2 {
 public class JumpGame {
         public static void main(String[] args) {
             int [] arr ={2,3,1,1,4};
+            // Jump Game I
             Solution1 sol1 = new Solution1();
+            System.out.println("Output for Jump Game I : "+ sol1.canJump(arr));
+
+            //Jump Game II
             Solution2 sol2 = new Solution2();
-            System.out.println(sol1.canJump(arr));
-            System.out.println(sol2.jump(arr));
+            System.out.println("Output for Jump game II:"+sol2.jump(arr));
     }
 }
