@@ -61,10 +61,8 @@ public class RemoveDuplicateII {
             if ( nums[i]!= nums[k-2]) {
                 nums[k] = nums[i]; 
                 k++;
-            }
-            
-        } 
-
+            } 
+        }  
 
         for (int i : nums) {
             System.out.print(i);
