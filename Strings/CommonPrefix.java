@@ -29,22 +29,22 @@ import java.util.Arrays;
 
 public class CommonPrefix {
     public static void main(String[] args) {
-        String [] arr ={"flower","flow","flight"};
+        String [] arr ={"ab", "a"};
         System.out.println(longestCommonPrefix(arr));
-
     }
 
     public static String longestCommonPrefix(String[] strs) {
+        StringBuilder ans = new StringBuilder();
+
         Arrays.sort(strs);
         String first = strs[0];
         String last = strs[strs.length-1];
-        StringBuilder ans = new StringBuilder();
-        for (int i = 0; i < Math.min(first.length()-1, last.length()-1); i++) {
-            if (first.charAt(i)!=last.charAt(i)) {
+        for (int i = 0; i < Math.min(first.length(), last.length()); i++) {
+            if (first.charAt(i) != last.charAt(i)) {
                 return ans.toString();
             }
             ans.append(first.charAt(i));
         }
-        return "";
+        return ans.toString();
     }
 }
