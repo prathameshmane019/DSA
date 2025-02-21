@@ -2,7 +2,7 @@
 
 <div align="center">
   
-[![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/repo-name)](https://github.com/prathameshmane019/DSA/commits/main)
+[![GitHub last commit](https://img.shields.io/github/last-commit/prathameshmane019/DSA)](https://github.com/prathameshmane019/DSA/commits/main)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/prathameshmane019/DSA/pulls) 
 
 </div>
@@ -10,32 +10,6 @@
 <div align="center">
   <p>Welcome to my Data Structures and Algorithms learning repository! This collection documents my journey through DSA, featuring solutions to various programming problems and implementations of fundamental algorithms.</p>
 </div>
-
-## 📚 Repository Structure
-
-```plaintext
-DSA-Journey/
-├── Arrays/
-│   ├── Easy/
-│   │   └── README.md
-│   ├── Medium/
-│   │   └── README.md
-│   └── Hard/
-│       └── README.md
-├── LinkedLists/
-│   └── README.md
-├── Trees/
-│   └── README.md
-├── Graphs/
-│   └── README.md
-├── Dynamic-Programming/
-│   └── README.md
-├── Sorting/
-│   └── README.md
-├── Searching/
-│   └── README.md
-└── README.md
-```
 
 ## 🎯 Problem Categories
 
@@ -201,19 +175,6 @@ def test_twoSum():
     assert twoSum([3,2,4], 6) == [1,2]
     assert twoSum([3,3], 6) == [0,1]
 ```
-
-## 📊 Progress Tracker
-
-<div align="center">
-
-| Platform | Problems Solved |
-|----------|----------------|
-| LeetCode | [Number] |
-| CodeForces | [Number] |
-| GeeksForGeeks | [Number] |
-| Total | [Number] |
-
-</div>
 
 ## 🛠️ Getting Started
 
