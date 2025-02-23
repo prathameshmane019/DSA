@@ -37,9 +37,7 @@
 // Both list1 and list2 are sorted in non-decreasing order.
 
 public class MergeTwoLists {
-
-
-
+ 
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 
         if(list1!=null && list2!=null){
