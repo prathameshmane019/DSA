@@ -42,6 +42,7 @@ public class RemoveDuplicatesFromSortedList {
     public ListNode deleteDuplicates(ListNode head) {
      Map<Integer,ListNode> mp = new HashMap<>();
     ListNode prevNode = new ListNode(0);
+    
      ListNode curr = head;
      while (curr!=null) {
             if (mp.containsKey(curr.val)) {
