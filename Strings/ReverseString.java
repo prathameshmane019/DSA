@@ -38,6 +38,7 @@ public class ReverseString {
         int l=0;
         int r = s.length()-1;
         char[] res = new char[r+1];
+        
 
         while (l<=r) {
             if (Character.isAlphabetic(s.charAt(l)) && Character.isAlphabetic(s.charAt(r))) {

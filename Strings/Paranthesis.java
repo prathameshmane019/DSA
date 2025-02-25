@@ -46,7 +46,7 @@ import java.util.Stack;
 
 public class Paranthesis {
     static boolean isValid(String s) {
-                Stack<Character> stack = new Stack<>();
+        Stack<Character> stack = new Stack<>();
         Map<Character, Character> mapping = new HashMap<>();
         mapping.put(')', '(');
         mapping.put('}', '{');
