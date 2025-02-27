@@ -39,15 +39,13 @@
 
 // 1 <= nums.length <= 105
 // -109 <= nums[i] <= 109
-
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
+ 
+import java.util.HashSet; 
 import java.util.Set;
 
 public class Duplicate1 {
     public boolean containsDuplicate(int[] nums) {
-        Set<Integer> hm =new HashSet<>();
+        Set<Integer> hm = new HashSet<>();
 
         if (nums.length<=1) {
             return false;
