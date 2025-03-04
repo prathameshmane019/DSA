@@ -1,7 +1,7 @@
 package Sorting;
 
 
-
+// Time Complexity : O(n^2)
 
 public class BubbleSort {
     public int[] bubbleSort(int [] arr){
