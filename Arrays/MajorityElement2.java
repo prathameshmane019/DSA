@@ -54,6 +54,7 @@ public class MajorityElement2 {
         }
         System.out.println(hm);
         return ls; 
+        
         }  
 
     public static void main(String[] args) {
